@@ -1,0 +1,30 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Copy provided logo asset",
+			"type": "shell",
+			"command": "node",
+			"args": [
+				"-e",
+				"require('fs').copyFileSync('C:\\\\Users\\\\muham\\\\AppData\\\\Roaming\\\\Code\\\\agentSessionData\\\\f343d7d3-70e2-4994-9c0e-8aae80343736\\\\attachments\\\\d4c1ac3e-47e3-4392-89e6-3bf86f731ca3\\\\Pasted Image.png','src\\\\assets\\\\logo-dede.png')"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Install uploaded logo",
+			"type": "shell",
+			"command": "cmd.exe",
+			"args": [
+				"/c",
+				"copy",
+				"/Y",
+				"C:\\Users\\muham\\AppData\\Roaming\\Code\\agentSessionData\\f343d7d3-70e2-4994-9c0e-8aae80343736\\attachments\\f3733d81-a64f-4888-b601-72922502723c\\Logo Avatar Futuristik Dede Maulana.png",
+				"src\\assets\\logo-dede.png"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}
