@@ -8,6 +8,21 @@ import LOSTFOUND from './assets/Web lost-found.jpg';
 import MYSTUDY from './assets/web MyStudy.jpg';
 import DICODINGCERT from './assets/sertifikat dicoding.jpg';
 import SPEAKUPCERT from './assets/sertifikat speak up.jpg';
+import UJI_LEVEL_2026 from './assets/Laporan Ketuntasan Uji level 2026.jpg';
+import PRAMUKA_GARUDA from './assets/Piagam Tanda Penghargaan Pramuka Garuda Penggalang Kabupaten Bogor.jpg';
+import MPLS_BEST from './assets/sertifikat mpls terbaik.jpg';
+import SMPN2_GARUDA from './assets/sertifikat penghargaan diberikan oleh SMPN 2 Ciomas atas prestasinya meraih Pramuka Penggalang Garuda.jpg';
+import JOTA_JOTI_2025 from './assets/sertifikat jota joti 2025 internasional.jpg';
+import JOTA_JOTI_2026 from './assets/Sertifikat Jota Joti 2026 internasional.jpg';
+import JOTA_SSTV from './assets/JOTA SSTV AWARD.jpg';
+import KOMPETISI_PRAMUKA_2022 from './assets/sertifikat Kompetisi Pramuka se-Nasional 2022.jpg';
+import JOTA_NASIONAL_2025 from './assets/sertifikat jota joti kwarnas indonesia 2025.jpg';
+import KOMPETISI_PRAMUKA_2025 from './assets/Piagam Sebagai Peserta Kompetisi Pramuka 2025 Tingkat Nasional.jpg';
+import PLASTIC_SMART_CITIES from './assets/Sertifikat penghargaan dalam kegiatan Plastic Smart Cities, Direktur Eksekutif Rekam Nusantara Foundation.jpg';
+import BINTANG_TAHUNAN from './assets/Sertifikat Bintang tahunan.jpg';
+import MENYALA from './assets/sertifikat menyala.jpg';
+import GEMPITA_BAKTRA_2025 from './assets/Piagam Sebagai Peserta Lomba Gempita Baktra Pramuka ke-XX 2025.jpg';
+import SAFE_FROM_HARM from './assets/sertifikat safe from harm.jpg';
 const NAV=[["home","Beranda"],["about","Tentang Saya"],["skills","Keahlian"],["projects","Proyek"],["certs","Sertifikat"],["journey","Perjalanan"],["contact","Kontak"]];
 const SOCIALS=[["WhatsApp","083892592726","https://wa.me/6283892592726","whatsapp"],["Instagram","@_demzx01","https://instagram.com/_demzx01","instagram"],["TikTok","@dema.zmx","https://tiktok.com/@dema.zmx","tiktok"],["GitHub","dema791ok","https://github.com/dema791ok","github"]];
 const SKILLS=[["💻","Frontend","Antarmuka web modern dan responsif",[["HTML & CSS",90],["JavaScript",78],["React",70]]],["🧩","Pemrograman","Logika dan struktur kode",[["Algoritma",80],["Python",72],["PHP & MySQL",65]]],["🛠️","Alat & Tools","Workflow pengembangan harian",[["Git & GitHub",75],["VS Code",92],["Figma",80]]],["🎨","UI/UX Design","Desain yang berpusat pada pengguna",[["Wireframing",82],["Prototyping",78],["Design System",70]]]];
@@ -17,7 +32,36 @@ const PROJ=[
 ["web","Web Lost and Found SKANIC","Platform berbasis React untuk membantu siswa melaporkan barang hilang, melihat barang yang ditemukan, dan menghubungkan barang dengan pemiliknya.","SKANIC · Lost and Found",["React","JavaScript","CSS"],"#0f766e,#2563eb",LOSTFOUND,"contain"],
 ["web","MyStudy","Aplikasi web untuk mendukung kegiatan belajar, dibangun menggunakan Laravel.","MyStudy",["Laravel","PHP"],"#312e81,#818cf8",MYSTUDY,"contain","https://mystudy-app-tdda.onrender.com"]
 ];
-const CERTS=[[null,"Introduction to Financial Literacy","Dicoding Indonesia",DICODINGCERT],[null,"SPEAK UP","Speak-Up Academy Hub",SPEAKUPCERT]];
+const PPLG_CERTS=[{
+title:"Laporan Ketuntasan Uji Level 2026",
+issuer:"Program PPLG · ditandatangani Kepala Program PPLG Wanda Kurniawan, S.Kom",
+date:"Bogor, 18 Mei 2026",
+description:"Diberikan kepada Kelompok SDN Margajaya 4, menyatakan telah mengikuti dan dinyatakan TUNTAS dalam pelaksanaan Uji Level Tahun 2026 berdasarkan hasil penilaian Tim Penguji.",
+image:UJI_LEVEL_2026
+},{
+title:"Introduction to Financial Literacy",
+issuer:"Dicoding Indonesia",
+date:"",
+description:"Sertifikat pembelajaran Introduction to Financial Literacy dari Dicoding Indonesia.",
+image:DICODINGCERT
+}];
+const ORG_CERTS=[
+{title:"Piagam Tanda Penghargaan Pramuka Garuda Penggalang Kabupaten Bogor",issuer:"Gerakan Pramuka Kwartir Cabang Kab. Bogor · Nomor: 157/LIX/0901-B/TPG.2023",date:"Cibinong, 19 November 2023",description:"Diberikan kepada Dede Maulana (Golongan Penggalang, Utusan Ciomas) atas prestasinya dalam keteladanan dan prestasi terbaik tingkat Kabupaten Bogor sehingga berhak menyandang predikat Pramuka Garuda Kabupaten Bogor.",image:PRAMUKA_GARUDA},
+{title:"Sertifikat Penghargaan Peserta MPLS Terbaik",issuer:"SMKN 1 Ciomas",date:"Bogor, 18 Juli 2025",description:"Diberikan kepada Dede Maulana sebagai Peserta MPLS Terbaik pada Masa Pengenalan Lingkungan Sekolah yang diselenggarakan pada Senin - Jumat, 14 - 18 Juli 2025 di SMKN 1 Ciomas.",image:MPLS_BEST},
+{title:"Piagam Penghargaan Pramuka Penggalang Garuda (SMPN 2 Ciomas)",issuer:"SMPN 2 Ciomas · Kepala SMPN 2 Ciomas Dr. R. Body Supriyana, S.Pd.",date:"Bogor, 27 November 2023",description:"Diberikan kepada Dede Maulana atas prestasinya meraih Pramuka Penggalang Garuda yang diselenggarakan oleh Kwartir Cabang Kabupaten Bogor pada 18 - 19 November 2023 di Bumi Perkemahan Cimandala.",image:SMPN2_GARUDA},
+{title:"JOTA-JOTI 2025 Certificate of Participation",issuer:"World Scouting",date:"2025 · JID: 3ID98W",description:"Recognises that Dede Maulana (JID: 3ID98W) took part in Jamboree On The Air - Jamboree On The Internet (JOTA-JOTI) 2025.",image:JOTA_JOTI_2025},
+{title:"JOTA-JOTI 2026 Certificate of Participation",issuer:"World Scouting",date:"2026 · JID: 3ID182PMA",description:"Recognises that Dede Maulana (JID: 3ID182PMA) took part in Jamboree On The Air - Jamboree On The Internet (JOTA-JOTI) 2026 and earned challenge badges including Environment and Sustainability, Bridge Builders, Peace and Community, International Friendship, Scouts for SDGs, Adult Allies, Life Skills, Peace Circles, Health and Well-being, Super Challenge: Peace & Inclusion Champion, Digital Adventurer, and Hike the Planet Challenge.",image:JOTA_JOTI_2026},
+{title:"JOTA SSTV Award",issuer:"JOTA Satellite Event Committee · No: SSTV/JOTA/2026:04024",date:"Jakarta, 18 Oktober 2026",description:"Given to Dede Maulana for successfully receiving SSTV images from the LAPAN-A2 / IO-86 satellite during the Jamboree on the Air (JOTA) event on October 16 - 18, 2026.",image:JOTA_SSTV},
+{title:"Piagam Penghargaan Kompetisi Pramuka se-Nasional 2022",issuer:"Gerakan Pramuka MAN 2 Kota Bogor · Ambalan Kiansantang & Diah Pitaloka, Gudep 02.031 - 02.032 · No: /010/Kompra/Gdp/31-32/XII/2022",date:"Bogor, 25 Desember 2022",description:"Diberikan kepada Dede Maulana sebagai Peserta pada kegiatan \"Kompetisi Pramuka 2022\" antar Pramuka Siaga, Penggalang, dan Penegak se-Nasional yang diselenggarakan pada 24 - 25 Desember 2022 di MAN 2 Kota Bogor.",image:KOMPETISI_PRAMUKA_2022},
+{title:"Piagam Penghargaan JOTA JOTI Nasional 2025",issuer:"Kwartir Nasional Gerakan Pramuka",date:"17 - 19 Oktober 2025",description:"Diberikan kepada Dede Maulana atas partisipasinya sebagai Peserta dalam Pelaksanaan Jamboree on the Air Nasional ke-88 dan Jamboree on the Internet Nasional ke-46 pada tanggal 17 - 19 Oktober 2025.",image:JOTA_NASIONAL_2025},
+{title:"Piagam Penghargaan Kompetisi Pramuka 2025 Tingkat Nasional",issuer:"Gerakan Pramuka MAN 2 Kota Bogor · Ambalan Kiansantang & Diah Pitaloka, Gudep 02.031 - 02.032 · No: /011/Kompra/Gdp/31-32/XII/2025",date:"Bogor, 21 Desember 2025",description:"Diberikan kepada Dede Maulana sebagai Peserta pada kegiatan Kompetisi Pramuka 2025 Tingkat Nasional yang diselenggarakan pada 20 - 21 Desember 2025 di MAN 2 Kota Bogor.",image:KOMPETISI_PRAMUKA_2025},
+{title:"Sertifikat Penghargaan Plastic Smart Cities Ke Sekolah",issuer:"Rekam Nusantara Foundation · Direktur Eksekutif Een Irawan Putra",date:"26 Oktober 2022",description:"Terima kasih kepada Dede Maulana atas partisipasinya sebagai Peserta dalam kegiatan Plastic Smart Cities Ke Sekolah yang diselenggarakan pada tanggal 26 Oktober 2022 di SMP YAPIS Kota Bogor.",image:PLASTIC_SMART_CITIES},
+{title:"Surat Keterangan Bintang Tahunan",issuer:"Gerakan Pramuka Gudep 25.113 - 25.114 Kabupaten Bogor · No: 015/25.113-25.114/VIII/2023",date:"2023",description:"Menyatakan Dede Maulana (Bogor, 29 Nopember 2008, Tingkat Penggalang) setia mengikuti kegiatan kepramukaan, mengamalkan Trisatya dan Dasa Darma, serta berhak menerima Tanda Penghargaan dan menggunakan lencana Bintang Tahunan.",image:BINTANG_TAHUNAN},
+{title:"Sertifikat Penghargaan Literasi Keuangan (MENYALA)",issuer:"CSR FIFGROUP PINTAR / ABB Learning Centre · No: 12971/MNYL/FIF/2025",date:"12 September 2025",description:"Diberikan kepada Dede Maulana yang telah menyelesaikan pelatihan \"Literasi Keuangan: Edukasi Pembiayaan\" Program CSR FIFGROUP PINTAR yang diselenggarakan oleh CSR FIFGROUP pada tanggal 12 September 2025.",image:MENYALA},
+{title:"Piagam Penghargaan Lomba Gempita Baktra Pramuka ke-XX 2025",issuer:"Gerakan Pramuka Gudep 06-001 & 06-002 / SMAN 1 Leuwiliang",date:"Bogor, 11 Oktober 2025",description:"Diberikan kepada Dede Maulana sebagai Peserta Lomba Gempita Baktra Pramuka ke-XX Tahun 2025 yang diselenggarakan pada 11 Oktober 2025 di SMAN 1 Leuwiliang.",image:GEMPITA_BAKTRA_2025},
+{title:"Sertifikat Kursus SfH 1: Pembelajaran Penting \"Safe from Harm\"",issuer:"Kwartir Nasional Gerakan Pramuka (AyoPramuka Kwarnas)",date:"19 Oktober 2025",description:"Diberikan kepada Dede Maulana karena telah menyelesaikan kursus SfH 1: Pembelajaran Penting \"Safe from Harm\" pada tanggal 19 Oktober 2025 (Sertifikat ID: #2f37c2cf-34ac-4080-aedb-e637e7b2cd15, masa berlaku 1 tahun).",image:SAFE_FROM_HARM},
+{title:"SPEAK UP",issuer:"Speak-Up Academy Hub",date:"",description:"Sertifikat dari Speak-Up Academy Hub untuk kegiatan SPEAK UP.",image:SPEAKUPCERT}
+];
 const TL=[["2024","Langkah Awal di SMK Negeri 1 Ciomas","Memulai jurusan PPLG dan mengenal dasar pemrograman serta logika."],["Awal 2025","Eksplorasi Mendalam Frontend & UI/UX","Belajar web modern, desain antarmuka, dan membangun proyek pertama."],["Pertengahan 2025","Aktif di OSIS & Proyek Kelompok","Berkolaborasi dalam tim, mengelola proyek sekolah, dan presentasi."],["Sekarang","Praktik Kerja Lapangan (PKL) di Industri","Bersiap menerapkan ilmu di dunia kerja nyata."]];
 
 const TECH=["HTML5","CSS3","JavaScript","React","Vite","Node.js","Python","PHP","MySQL","Git","GitHub","Figma","UI/UX"];
@@ -141,7 +185,14 @@ return <>
 
 <section id="certs"><div className="wrap">
 <Head e="SERTIFIKAT & LENCANA" t="Terus Belajar, Terus Berkembang." s="Bukti dedikasi dalam mengembangkan kompetensi melalui pelatihan dan kompetisi."/>
-<div className="cg">{CERTS.map(c=><Tilt key={c[1]} className="card rv" style={{padding:16}}><div className={"ct"+(c[3]?" certificate-image":"")}>{c[3]?<img src={c[3]} alt={`Sertifikat ${c[1]}`}/>:c[0]}</div><h3>{c[1]}</h3><p>{c[2]}</p></Tilt>)}</div>
+<div className="certificate-group rv">
+<div className="certificate-bar"><span className="certificate-icon">💻</span><div><small>KATEGORI 1</small><h3>Sertifikat PPLG</h3></div></div>
+<div className="cg">{PPLG_CERTS.map(c=><Tilt key={c.title} className="card rv certificate-card" style={{padding:16}}><div className="ct certificate-image"><img src={c.image} alt={`Sertifikat ${c.title}`}/></div><div className="certificate-copy"><h3>{c.title}</h3><p className="certificate-issuer">{c.issuer}</p>{c.date&&<p className="certificate-date">{c.date}</p>}<p className="certificate-description">{c.description}</p></div></Tilt>)}</div>
+</div>
+<div className="certificate-group rv">
+<div className="certificate-bar"><span className="certificate-icon">🏕️</span><div><small>KATEGORI 2</small><h3>Sertifikat Lainnya</h3></div></div>
+<div className="cg">{ORG_CERTS.map(c=><Tilt key={c.title} className="card rv certificate-card" style={{padding:16}}><div className="ct certificate-image"><img src={c.image} alt={`Sertifikat ${c.title}`}/></div><div className="certificate-copy"><h3>{c.title}</h3><p className="certificate-issuer">{c.issuer}</p>{c.date&&<p className="certificate-date">{c.date}</p>}<p className="certificate-description">{c.description}</p></div></Tilt>)}</div>
+</div>
 </div></section>
 
 <section id="journey" className="alt"><div className="wrap">
