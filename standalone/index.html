@@ -317,7 +317,7 @@ return <div className="hc rv" onPointerMove={mv} onPointerLeave={lv}><div classN
 <div className="hc-name"><div><b>Dede Maulana</b><small>aka Dema · Web Developer</small></div><span className="hc-on"><i/>Open</span><div className="hc-bar"/></div>
 <div className="hc-glare"/></div></div></div>}
 function App(){
-const [dark,setDark]=useState(()=>matchMedia("(prefers-color-scheme: dark)").matches);
+const [dark,setDark]=useState(true);
 const [open,setOpen]=useState(false),[act,setAct]=useState("home"),[f,setF]=useState("all"),[toast,setToast]=useState(false),[sel,setSel]=useState(null),[send,setSend]=useState(false);
 useReveal();
 useEffect(()=>{document.documentElement.dataset.theme=dark?"dark":"light"},[dark]);
